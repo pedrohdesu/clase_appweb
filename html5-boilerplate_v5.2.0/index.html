@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Ryuusei</title>
+    <title>Colorbind</title>
 
     <!-- Animate css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -26,14 +26,7 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Thumbnail icon -->
-    <link rel="shortcut icon" href="img/color_scheme.ico">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="shortcut icon" href="color_scheme.ico">
 
 </head>
 
@@ -73,11 +66,9 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+                  <li><a href="http://www.google.com">Get out</a></li>
+                  <li><a href="http://www.tumblr.com">Looking for fun?</a></li>
+                  <li><a href="https://www.facebook.com/mieldemapleparahotcakes">Visit Miel de Maple</a></li>
                 </ul>
               </li>
             </ul>
@@ -94,9 +85,11 @@
                 <div class="col-lg-12">
                     <img class="img-circle img-responsive" src="img/new_profile.jpg" alt="" width="300" height="300">
                     <div class="intro-text">
-                        <span class="name animated rubberBand">Pedro Armenta Cota</span>
+                        <span id="nameId" class="name animated rubberBand">Pedro Armenta Cota</span>
                         <hr class="star-light">
-                        <span class="skills"> Digital ilustrator - 3D Maya Modeler - Freelancer </span>
+                        <span class="skills"> Status: College Student </span>
+                        <hr>
+                        <span class="skills"> Digital ilustrator - 3D Maya Modeler </span>
                     </div>
                 </div>
             </div>
@@ -108,7 +101,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2><span id="portfolioId" class="portfolio animated rubberBand">Portfolio</span></h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -182,19 +175,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2><span id="aboutId" class="about animated rubberBand">About</span></h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Digital Animation Engineer graduted from Univesidad Panamericana actually working as Freelancer for the entertainment industry.</p>
+                    <p>Digital Animation Engineer student from Univesidad Panamericana trying his best for get into the entertainment industry.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Taking works about digital modeling in Maya, concept art, character desing and also storyboard issues, feel free of get in touch with me.</p>
+                    <p>Always practicing digital modeling in Maya, concept art, character desing and also storyboard issues, feel free of get in touch with me.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h3>Social Media</h3>
+                        <h3>My Social Media</h3>
                         <ul class="list-inline center">
                             <li>
                                 <a href="https://www.facebook.com/pedroh.armentacota" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -216,14 +209,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p><h2><span class="contactMe animated rubberBand">Contact Me</span></h2></p>
+                    <p><h2><span id="contactMe" class="contactMe animated rubberBand">Contact Me</span></h2></p>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -273,11 +264,11 @@
                 <div class="row">
                     <div class="footer-col col-md-6">
                         <h3>Location</h3>
-                        <p>P. Sherman, Wallaby Way street #42<br>Sidney, Australia 90210</p>
+                        <p>P. Sherman, Wallaby Way street #42<br>Sidney, Australia 08420</p>
                     </div>
                     <div class="footer-col col-md-6">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Visit <strong>Miel de Maple</strong></h3>
+                        <p>A site of three young artist where they upload all their sketches, artworks, or anything related to their art, give look! <a href="https://www.facebook.com/mieldemapleparahotcakes"> click here</a>.</p>
                     </div>
                 </div>
             </div>
@@ -293,7 +284,7 @@
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <!-- Scroll to Top Button -->
     <div class="scroll-top page-scroll visible-xs visible-sm">
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
@@ -301,7 +292,7 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -313,13 +304,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Demo #1</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/p1.jpg" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Done in:
-                                    <strong><a href="http://startbootstrap.com">Bootstrap</a>
+                                    <strong>Photoshop CS6
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -350,13 +340,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Demo #2</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/p2.jpg" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Done in:
-                                    <strong><a href="http://startbootstrap.com">Bootstrap</a>
+                                    <strong>Easy Paint Tool SAI
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -387,13 +376,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Demo #3</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/p3.jpg" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Done in:
-                                    <strong><a href="http://startbootstrap.com">Bootstrap</a>
+                                    <strong>Easy Paint Tool SAI</a>
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -424,13 +412,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Demo #4</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/p4.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Done in:
-                                    <strong><a href="http://startbootstrap.com">Bootstrap</a>
+                                    <strong>Autodesk Maya</a>
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -461,13 +448,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Demo #5</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/p5.jpg" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                  <li>Done in:
-                                    <strong><a href="http://startbootstrap.com">Bootstrap</a>
+                                    <strong>Autodesk Maya</a>
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -499,13 +485,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Demo #6</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/p6.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/p6.jpg" class="img-responsive img-centered" alt="">
                             <ul class="list-inline item-details">
                                  <li>Done in:
-                                    <strong><a href="http://startbootstrap.com">Bootstrap</a>
+                                    <strong>Autodesk Maya
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -543,71 +528,11 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 
-    <!-- Animation Rubberband Name--> 
-    <script>
-    function animationHover(element, animation){
-    element = $(element);
-    element.hover(
-        function() {
-            element.addClass('animated ' + animation);        
-        },
-            function(){
-                //wait for animation to finish before removing classes
-                window.setTimeout( function(){
-                    element.removeClass('animated ' + animation);
-                }, 2000);         
-            });
-        }
-    </script>
+    <!-- Animation Rubberband --> 
+   <script src="js/rubberBand.js"></script>
 
-    <script>
-    $(document).ready(function(){
-        $('#Name').each(function() {
-            animationHover(this, 'rubberBand');
-        });
-    });
-    </script>
-
-    <!-- Animation Rubberband ContactMe-->
-    <script>
-    function animationHover(element, animation){
-    element = $(element);
-    element.hover(
-        function() {
-            element.addClass('animated ' + animation);        
-            //wait for animation to finish before removing classes
-            window.setTimeout( function(){
-                element.removeClass('animated ' + animation);
-            }, 2000);         
-  
-        });
-    }
-    </script>
-
-    <script>
-    $(document).ready(function(){
-        $('#contactMe').each(function() {
-            animationHover(this, 'rubberBand');
-        });
-    });
-    </script>
-
-    <script>
-    var x = 0;
-    var y = 0;
-    var z = 0;
-    $(document).ready(function(){
-        $("div.over").mouseover(function(){
-            $(".over span").text(x += 1);
-        });
-        $("div.enter").mouseenter(function(){
-            $(".enter span").text(y += 1);
-        });
-        $("div.move").mousemove(function(){
-            $(".move span").text(z += 1);
-        });
-    });
-    </script>
+    <!-- Animation fade in/out-->
+    <script src="js/animation_fadeInAndOut.js"></script>
 
 </body>
 
