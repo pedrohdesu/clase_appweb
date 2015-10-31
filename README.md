@@ -9,6 +9,7 @@ o por referencia de las variables que le mando. Yo le fuí más a que fuera algo
 de la referencia de valores, pero cheque y cheque todas mis transferencias de
 valores en los metodos, hice cambios y cambios y nada funcionaba, no sé de
 verdad porque no me permite acceder al servidor para ingresarlo a la base de
+asdasda
 datos.
 
 Los archivos en donde trabaje todo fueron 'user.php' que es donde tengo todo el
