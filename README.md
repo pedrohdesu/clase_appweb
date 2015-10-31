@@ -3,14 +3,9 @@
 
 ec2-52-89-197-86.us-west-2.compute.amazonaws.com/website/
 
-Mi 'newsletter' es el 'contact me', intente hacer todo lo que pude con el pdo,
-pero tengo errores con el servidor, no sé si sea por conectarse al servidor 
-o por referencia de las variables que le mando. Yo le fuí más a que fuera algo
-de la referencia de valores, pero cheque y cheque todas mis transferencias de
-valores en los metodos, hice cambios y cambios y nada funcionaba, no sé de
-verdad porque no me permite acceder al servidor para ingresarlo a la base de
-asdasda
-datos.
+Mi 'newsletter' es el 'contact me'. Hice todo lo que pude con el PDO, me guarda en mi base de datos, pero me aparecen en NULL los datos que se guardan. No pude hacer que me regresará la base de datos en la pagina por lo mismo de que me los guardaba como NULL, e hice mil y un cambios a ver si podía evitarlo y solo
+generaba más errores. Ya no pude agregar la ventanita que avisaba cuando se hizose guardaba el mensaje, pero hice que se borrará el mensaje y que abajo
+apareciera que se envió.
 
 Los archivos en donde trabaje todo fueron 'user.php' que es donde tengo todo el
 código de PDO. El de 'database.php' que es la base de mi PDO y por ultimo el 
